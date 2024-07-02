@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("asset/images/bg.jpg.jpg");
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+
+.main .box {
+    height: 100vh;
+    width: 100%;
+    opacity: 0.49;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    max-width: 70vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+nav img {
+    width: 149px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    font-family: "Martel Sans", sans-serif;
+    height: calc(100% - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0px 30px
+}
+
+.hero> :nth-child(1) {
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.separation {
+    height: 7px;
+    background-color: rgb(48, 45, 45);
+    position: relative;
+    z-index: 10;
+}
+ 
+.btn {
+    padding: 3px 8px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(0 0 0 / 35%);
+    border-radius: 3px;
+    border: 1px solid #ffffff61;
+}
+
+.btn-red {
+    background-color: rgb(214, 15, 15);
+    color: white;
+    padding: 13px 40px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+button.btn.red-sm {
+    background-color: red;
+    color: white;
+}
+
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.main input {
+    padding: 16px 114px 15px 14px;
+    color:white;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 4px;
+    background-color: rgb(23 23 23 / 76%);
+    border: 1px solid #ffffff47;
+
+}
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    align-items: center; 
+} 
+
+.secimg{
+     position: relative;
+}
+.secimg img{
+    width:30vw;
+    z-index: 10;
+    position: relative;
+}
+.secimg video{ 
+    position: absolute;
+    top: 63px;
+    right: 57px;
+    width: 301px;
+}
+.first{
+    height: 70vh;
+}
+
+section.first > div :nth-child(1){
+    font-size:48px;
+    font-weight: bolder;
+}
+section.first > div :nth-child(2){
+    font-size:24px;
+    font-weight: 400;
+}
+section.first > div{
+    display: flex;
+    flex-direction: column;
+    gap:20px
+}
+
+.faq h1{
+    text-align: center;
+    font-size: 48px;
+    margin-top: 46px;
+}
+
+.faq{
+    background-color: black;
+    color: white;
+    padding: 34px;
+}
+
+.faqbox:hover{
+    background-color: #414141;
+}
+.faqbox{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 24px;
+    max-width: 65vw;                                                   
+    margin: 10px auto;                                                                                                                                  
+    font-size: 25px;
+    transition: all 0.41s;
+}
+
+.faqbox svg{
+    filter: invert(1);
+}
+
+footer{
+    color:white;
+    max-width:60vw;
+    margin: auto;
+    padding:  14px;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color:white;
+   height:30vh;
+}
+
+.footer a{
+    color:white;
+    font-size: 14px;
+}
+
+.footer-item{
+    display:flex;
+    flex-direction:column;
+    gap: 23px;
+}
+
+footer .questions{
+    padding: 34px 0px;
+}
